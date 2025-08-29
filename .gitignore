@@ -1,0 +1,47 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Build
+dist/
+build/
+.tmp/
+temp/
+coverage/
+
+# Expo / React Native
+.expo/
+.expo-shared/
+ios/build/
+ios/Pods/
+android/.gradle/
+android/app/build/
+android/build/
+*.iml
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment
+.env
+.env.*.local
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.swp
+
+# Firebase
+infra-firebase/.firebase/
+infra-firebase/functions/lib/
+infra-firebase/functions/node_modules/
+
+# Misc
+.DS_Store
+Thumbs.db
