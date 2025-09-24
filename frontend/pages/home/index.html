@@ -1,0 +1,16 @@
+<div class="max-w-6xl mx-auto p-6 space-y-6">
+  <header class="flex items-center justify-between">
+    <h1 class="text-2xl font-semibold">Home</h1>
+    <nav class="flex gap-2">
+      <button onclick="go('/disciplinas')" class="px-3 py-1 rounded bg-slate-800">Disciplinas</button>
+      <button onclick="go('/calendario')" class="px-3 py-1 rounded bg-slate-800">Calendário</button>
+      <button onclick="go('/notas')" class="px-3 py-1 rounded bg-slate-800">Notas</button>
+      <button id="logoutBtn" class="px-3 py-1 rounded bg-rose-600">Sair</button>
+    </nav>
+  </header>
+
+  <section>
+    <h2 class="text-lg mb-3">Meus cursos</h2>
+    <div id="courses" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+  </section>
+</div>
